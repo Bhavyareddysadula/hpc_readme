@@ -61,6 +61,7 @@ Compile the program using a C compiler. For example:
 ```bash
 gcc -o block_matrix_mult block_matrix_mult.c
 ```
+```
 
 Here, block_matrix_mult is the name of the executable.
 
