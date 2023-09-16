@@ -55,7 +55,7 @@ The program will display the size of the matrices, the number of threads used, a
 
 Graph for the same are as below:
 
-1. **OMM ( Threds vs Elapsed Time )** :
+1. **OMM ( Threads vs Elapsed Time )** :
 
      ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/849810a8-2563-400b-8429-ba44da03a6d9)
 
@@ -66,7 +66,7 @@ Graph for the same are as below:
 
 
    
-2. **Nth Power of Matrix with OMM ( Threds vs Elapsed Time )** :
+2. **Nth Power of Matrix with OMM ( Threads vs Elapsed Time )** :
 
      ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/00715e16-320a-45cf-9d98-86f9478c85d4)
 
@@ -120,7 +120,7 @@ For nth power:
 ## Output
 The program will display the size of the matrices, the block size, and the result of the multiplication.
 
-1. **BMM ( Threds vs Elapsed Time )** :
+1. **BMM ( Threads vs Elapsed Time )** :
 
    ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/fa9d97e7-1a4b-4fc1-b951-aee78d1c9f42)
 
@@ -152,7 +152,7 @@ The program will display the size of the matrices, the block size, and the resul
 
    ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/34dfaa23-6cd4-4322-a168-2690fc74468c)
    
-2. **Nth Power of Matrix with BMM ( Threds vs Elapsed Time )** :
+2. **Nth Power of Matrix with BMM ( Threads vs Elapsed Time )** :
 
    ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/4c067ed1-f485-4c5b-aea5-44c60c960e50)
 
