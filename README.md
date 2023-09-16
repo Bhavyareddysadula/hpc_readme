@@ -66,7 +66,14 @@ Graph for the same are as below:
 
 
    
-3. **Nth Power of Matrix with OMM ( Threds vs Elapsed Time )** :
+2. **Nth Power of Matrix with OMM ( Threds vs Elapsed Time )** :
+
+     ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/00715e16-320a-45cf-9d98-86f9478c85d4)
+
+     ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/1961d922-76cc-45a9-bd1d-bdb8360f4456)
+
+     ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/32fb37f0-cafb-4c4a-b369-cb9cf9fda942)
+   
 
 ## Conclusion
 
@@ -114,7 +121,43 @@ For nth power:
 The program will display the size of the matrices, the block size, and the result of the multiplication.
 
 1. **BMM ( Threds vs Elapsed Time )** :
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/fa9d97e7-1a4b-4fc1-b951-aee78d1c9f42)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/32cd9ae0-cb93-4534-b22d-8a9d4eb9d8a1)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/d72284cf-fc77-4f5b-a30c-595c1812ef24)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/13efd22e-f7f8-48c6-99ef-c2b98fa728d0)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/08f59f7c-6fc1-4fe5-93ab-1c3c72bf2cb2)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/ef993aa3-340f-440e-9b9d-b9f3fb34dae6)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/86c7d394-e144-4c7d-8c3f-de727cb690f9)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/8f30055c-f9dc-4b32-8e1a-757f14dd33d8)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/bad4e8ca-d363-4905-9f48-376fba22704b)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/64005011-d04f-4165-8319-91cf1d66f3b9)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/0dde34b3-ec13-4e2b-9269-fa65f005160e)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/d39c0483-5764-4dea-969a-6d596d28e5ae)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/cd67a740-fb3d-49e7-9001-050569986a69)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/98ddcaf1-c381-4a03-a67e-b9f19141cadb)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/34dfaa23-6cd4-4322-a168-2690fc74468c)
+   
 2. **Nth Power of Matrix with BMM ( Threds vs Elapsed Time )** :
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/4c067ed1-f485-4c5b-aea5-44c60c960e50)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/09d91bf5-cd2e-4a7d-98b1-e2e729f938ba)
+
 
 ## Memory Management
 The program dynamically allocates memory for matrices A, B, and C, as well as for the block buffers. It frees the allocated memory after the multiplication is complete to prevent memory leaks.
