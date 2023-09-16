@@ -54,8 +54,6 @@ This C program demonstrates how to use OpenMP to parallelize matrix multiplicati
 ```markdown
 # Block Matrix Multiplication
 
-## Usage
-
 Compile the program using a C compiler. For example:
 
 gcc -o block_matrix_mult block_matrix_mult.c
