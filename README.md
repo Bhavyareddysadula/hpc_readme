@@ -28,10 +28,12 @@ This command compiles the code with OpenMP support and generates an executable n
 To run the program, use the following command:
 ```bash
 ./matrix_multiplication <matrix_size> <num_threads>
+```
 
 Replace <matrix_size> with the desired size of the matrices and <num_threads> with the number of threads you want to use for parallel execution.
 ```bash
 ./matrix_multiplication 1000 4
+```
 
 This will perform matrix multiplication with matrices of size 1000x1000 using 4 threads.
 
