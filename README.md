@@ -56,7 +56,17 @@ The program will display the size of the matrices, the number of threads used, a
 Graph for the same are as below:
 
 1. **OMM ( Threds vs Elapsed Time )** :
-2. **Nth Power of Matrix with OMM ( Threds vs Elapsed Time )** :
+
+     ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/849810a8-2563-400b-8429-ba44da03a6d9)
+
+     ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/9af1046d-1c50-4596-b64f-62bf3d5b641f)
+
+     ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/4024d1c8-33b6-472e-846b-a78b2c6c1c8f)
+
+
+
+   
+3. **Nth Power of Matrix with OMM ( Threds vs Elapsed Time )** :
 
 ## Conclusion
 
