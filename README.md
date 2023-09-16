@@ -34,6 +34,7 @@ To run the program, use the following command:
 For finding nth power of the matrix:
 ```bash
 ./matrix_multiplication <matrix_size> <exponent> <num_threads>
+```
 
 Replace <matrix_size> with the desired size of the matrices and <num_threads> with the number of threads you want to use for parallel execution.
 ```bash
