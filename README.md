@@ -22,3 +22,21 @@ To compile the program, open a terminal and navigate to the directory containing
 
 ```bash
 gcc -o matrix_multiplication matrix_multiplication.c -fopenmp
+
+This command compiles the code with OpenMP support and generates an executable named matrix_multiplication.
+
+To run the program, use the following command:
+```bash
+./matrix_multiplication <matrix_size> <num_threads>
+
+Replace <matrix_size> with the desired size of the matrices and <num_threads> with the number of threads you want to use for parallel execution.
+```bash
+./matrix_multiplication 1000 4
+
+This will perform matrix multiplication with matrices of size 1000x1000 using 4 threads.
+
+## Output
+The program will display the size of the matrices, the number of threads used, and the elapsed time for matrix multiplication.
+
+## Conclusion
+This C program demonstrates how to use OpenMP to parallelize matrix multiplication, improving the performance of the computation. You can adjust the matrix size and the number of threads to observe the impact on execution time.
