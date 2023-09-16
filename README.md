@@ -126,9 +126,9 @@ The program will display the size of the matrices, the block size, and the resul
 
    ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/32cd9ae0-cb93-4534-b22d-8a9d4eb9d8a1)
 
-   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/d72284cf-fc77-4f5b-a30c-595c1812ef24)
-
    ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/13efd22e-f7f8-48c6-99ef-c2b98fa728d0)
+
+   ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/d72284cf-fc77-4f5b-a30c-595c1812ef24)
 
    ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/08f59f7c-6fc1-4fe5-93ab-1c3c72bf2cb2)
 
@@ -152,7 +152,7 @@ The program will display the size of the matrices, the block size, and the resul
 
    ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/34dfaa23-6cd4-4322-a168-2690fc74468c)
    
-2. **Nth Power of Matrix with BMM ( Threads vs Elapsed Time )** :
+3. **Nth Power of Matrix with BMM ( Threads vs Elapsed Time )** :
 
    ![image](https://github.com/Bhavyareddysadula/hpc_readme/assets/126856102/4c067ed1-f485-4c5b-aea5-44c60c960e50)
 
