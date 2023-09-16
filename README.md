@@ -49,7 +49,7 @@ This C program demonstrates how to use OpenMP to parallelize matrix multiplicati
 
 
 
-### Block Matrix Multiplication
+# Block Matrix Multiplication
 
 ```markdown
 # Block Matrix Multiplication
