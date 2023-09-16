@@ -45,3 +45,40 @@ The program will display the size of the matrices, the number of threads used, a
 ## Conclusion
 
 This C program demonstrates how to use OpenMP to parallelize matrix multiplication, improving the performance of the computation. You can adjust the matrix size and the number of threads to observe the impact on execution time.
+
+
+
+
+### Block Matrix Multiplication
+
+```markdown
+# Block Matrix Multiplication
+
+## Usage
+
+Compile the program using a C compiler. For example:
+
+```bash
+gcc -o block_matrix_mult block_matrix_mult.c
+```
+
+Here, block_matrix_mult is the name of the executable.
+
+To run the program, use the following command-line format:
+```bash
+./block_matrix_mult <matrix_size> <block_size>
+```
+
+<matrix_size>: The size of the square matrices (e.g., 100 for a 100x100 matrix).
+<block_size>: The size of the square blocks (e.g., 10 for a 10x10 block).
+For example, to multiply two 100x100 matrices using 10x10 blocks:
+
+```bash
+./block_matrix_mult 100 10
+```
+
+## Output
+The program will display the size of the matrices, the block size, and the result of the multiplication.
+
+## Memory Management
+The program dynamically allocates memory for matrices A, B, and C, as well as for the block buffers. It frees the allocated memory after the multiplication is complete to prevent memory leaks.
