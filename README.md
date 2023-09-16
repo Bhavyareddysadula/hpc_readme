@@ -36,7 +36,9 @@ Replace <matrix_size> with the desired size of the matrices and <num_threads> wi
 This will perform matrix multiplication with matrices of size 1000x1000 using 4 threads.
 
 ## Output
+
 The program will display the size of the matrices, the number of threads used, and the elapsed time for matrix multiplication.
 
 ## Conclusion
+
 This C program demonstrates how to use OpenMP to parallelize matrix multiplication, improving the performance of the computation. You can adjust the matrix size and the number of threads to observe the impact on execution time.
