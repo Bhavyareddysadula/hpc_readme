@@ -31,9 +31,19 @@ To run the program, use the following command:
 ./matrix_multiplication <matrix_size> <num_threads>
 ```
 
+For finding nth power of the matrix:
+```bash
+./matrix_multiplication <matrix_size> <exponent> <num_threads>
+
 Replace <matrix_size> with the desired size of the matrices and <num_threads> with the number of threads you want to use for parallel execution.
 ```bash
-./matrix_multiplication 1000 4
+./matrix_multiplication 512 2
+```
+
+For nth power:
+Replace <matrix_size> with the desired size of the matrices and <num_threads> with the number of threads you want to use for parallel execution.
+```bash
+./matrix_multiplication 512 2 4
 ```
 
 This will perform matrix multiplication with matrices of size 1000x1000 using 4 threads.
@@ -41,6 +51,11 @@ This will perform matrix multiplication with matrices of size 1000x1000 using 4 
 ## Output
 
 The program will display the size of the matrices, the number of threads used, and the elapsed time for matrix multiplication.
+
+Graph for the same are as below:
+
+1. **OMM ( Threds vs Elapsed Time )** :
+2. **Nth Power of Matrix with OMM ( Threds vs Elapsed Time )** :
 
 ## Conclusion
 
@@ -56,14 +71,19 @@ This C program demonstrates how to use OpenMP to parallelize matrix multiplicati
 
 Compile the program using a C compiler. For example:
 
-gcc -o block_matrix_mult block_matrix_mult.c
+gcc -o block_matrix_mult block_matrix_mult.c -fopenmp
 ```
 
 Here, block_matrix_mult is the name of the executable.
 
 To run the program, use the following command-line format:
 ```bash
-./block_matrix_mult <matrix_size> <block_size>
+./block_matrix_mult <matrix_size> <num_threads> <block_size>
+```
+
+For nth power of a matrix using BMM:
+```bash
+./block_matrix_mult <matrix_size> <exponent> <num_threads> <block_size>
 ```
 
 <matrix_size>: The size of the square matrices (e.g., 100 for a 100x100 matrix).
@@ -71,11 +91,19 @@ To run the program, use the following command-line format:
 For example, to multiply two 100x100 matrices using 10x10 blocks:
 
 ```bash
-./block_matrix_mult 100 10
+./block_matrix_mult 1024 6 4
+```
+
+For nth power:
+```bash
+./block_matrix_mult 1024 2 6 4
 ```
 
 ## Output
 The program will display the size of the matrices, the block size, and the result of the multiplication.
+
+1. **BMM ( Threds vs Elapsed Time )** :
+2. **Nth Power of Matrix with BMM ( Threds vs Elapsed Time )** :
 
 ## Memory Management
 The program dynamically allocates memory for matrices A, B, and C, as well as for the block buffers. It frees the allocated memory after the multiplication is complete to prevent memory leaks.
