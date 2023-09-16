@@ -22,6 +22,7 @@ To compile the program, open a terminal and navigate to the directory containing
 
 ```bash
 gcc -o matrix_multiplication matrix_multiplication.c -fopenmp
+```
 
 This command compiles the code with OpenMP support and generates an executable named matrix_multiplication.
 
